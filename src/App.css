@@ -1,0 +1,16 @@
+* { margin: 0; padding:0; box-sizing: border-box; }
+
+body { font-family: sans-serif; background: #edf2f7; }
+
+.control { width: 100%; padding: 15px 13px; background: #edf2f7; border:none; outline: none; border-radius: 3px; }
+.cool { animation: ani .5s linear; cursor: pointer; }
+
+@keyframes ani {
+    from {
+        opacity: 0;
+        width: 0;
+    } to {
+        opacity: 1;
+        width: 100%;
+    }
+}
